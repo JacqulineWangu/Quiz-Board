@@ -19,3 +19,16 @@ $("#quiz1").submit(function (event){
  });
 });
 
+$("#result").text("YOUR SCORE: " + result + " POINTS OUT OF 10");
+
+if (result >=5) {
+    $("#comment").text("GRACIOUS!! KEEP IT UP.")
+}else if (result = 5){
+    $("#comment").text("AVERAGE. GOOD WORK")
+}else if (result <=4){
+    $("#comment").text("TRY HARDER! RETAKE THE TEST.")
+}else {
+    $("#comment").text("ANSWER EVERY QUESTION.")
+}
+});
+});
