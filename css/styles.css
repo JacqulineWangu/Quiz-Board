@@ -1,12 +1,26 @@
 li {
     list-style: none;
   }
-.button {
- hover: 20em;
+.button:hover {
  background-color: aqua;
  height: 30rem;
  border-end-end-radius: 40em;
   }
 body {
-  background-image: url(images/'jjes.jpeg');
+  background-image: url('images/jjes.jpeg');
 }
+.pointi {
+  display: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 200%;
+  text-align: center;
+  border: 2px;
+  width: 400px;
+  height: 200px;
+  background-color: brown;
+  position: relative;
+  top: 0px;
+  left: 400px;
+  padding: 70px;
+}
+

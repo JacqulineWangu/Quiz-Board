@@ -14,6 +14,9 @@ $(document).ready(function(){
         result.forEach(function(x){
             total +=x;
         })
+        $(".questions").slideUp();
+        $(".pointi").fadeIn();
+        $(".output").text("Wewe mshenzi your score is "+total+"%")
         alert("We mshenzi your score is "+total+"%");
     })
 })
