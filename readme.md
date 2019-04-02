@@ -6,13 +6,20 @@ This section presents you various set of Mock Tests related to Javascript Framew
 
 ## BDD
 
-|  BEHAVIOUR                 | INPUT                                | OUTPUT                |
-|----------------------------|--------------------------------------------------------------|
-|  All 3sides are equal      | sideA=sideB=sideC                    | EQUILATERAL TRIANGLE  |
-|  Any 2sides are equal      | sideA=sideB,sideA=sideC,sideB=sideC  | ISOSCELES TRIANGLE    |
-|  No side is equal          | sideA!==sideB!==sideC                | SCALENE TRIANGLE      |
-|  No input                  | No input                             | NOT A TRIANGLE        |
-|  Values<=0                 | (sideA,sideB,sideC)<=0               | NOT A TRIANGLE        |
+|  BEHAVIOUR                                   | INPUT                |      OUTPUT                     |
+|----------------------------------------------|--------------------------------------------------------|
+|  User does not answer any question 	       | 0,0,0,0,0,0,0,0,0,0 |  Your final score is: 0 out of 10|
+|  User answers only one question correctly    | 1,0,0,0,0,0,0,0,0,0 |  Your final score is: 1 out of 10|
+|  User answers two questions correctly 	   | 1,1,0,0,0,0,0,0,0,0 |  Your final score is: 2 out of 10|
+|  User answers three questions correctly 	   | 1,1,1,0,0,0,0,0,0,0 |  Your final score is: 3 out of 10|
+|  User answers four questions correctly 	   | 1,1,1,1,0,0,0,0,0,0 |  Your final score is: 4 out of 10|
+|  User answers five questions correctly       | 1,1,1,1,1,0,0,0,0,0 |  Your final score is: 5 out of 10|
+|  User answers six question correctly 	       | 1,1,1,1,1,1,0,0,0,0 |  Your final score is: 6 out of 10|
+|  User answers seven questions correctly 	   | 1,1,1,1,1,1,1,0,0,0 |  Your final score is: 7 out of 10|
+|  User answers eight questions correctly 	   | 1,1,1,1,1,1,1,1,0,0 |  Your final score is: 8 out of 10|
+|  User answers nine questions correctly 	   | 1,1,1,1,1,1,1,1,1,0 |  Your final score is: 9 out of 10|
+|  User answers all the ten questions correctly| 1,1,1,1,1,1,1,1,1,1 | Your final score is: 10 out of 10|
+
 
 ## Setup/Installation Requirements
 * This is a great place
