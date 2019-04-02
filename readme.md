@@ -2,7 +2,7 @@
 #### Gives you a quiz to answer and test your capability on JAVASCRIPT, 29 March 2019.
 #### By **JACQUELINE BENEDICT**
 ## Description
-This section presents you various set of Mock Tests related to Javascript Framework. You can download these sample mock tests at your local machine and solve offline at your convenience. Every mock test is supplied with a mock test key to let you verify the final score and grade yourself.
+This section presents you a set of Mock Test related to Javascript Framework. You can download these sample mock test at your local machine and solve offline at your convenience. Every mock test is supplied with a mock test key to let you verify the final score and grade yourself.
 
 ## BDD
 
@@ -30,7 +30,7 @@ This section presents you various set of Mock Tests related to Javascript Framew
 This app depends on no other technologies and codes.
 its is user friendly.
 ## Known Bugs
-From the home page the next step on clicking at the TRIANGLE TRACKER on the sidenav. Note that the Technical issue is currently being resolved by the developer.
+No bugs detected.
 ## Technologies Used
 Tool and languages used in creating this app are:
 1. HTML
@@ -49,4 +49,4 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
 *
-Copyright (c) 2019 **RAYB'S DEVELOPER COMPANY**
+Copyright (c) 2019 **RAYB'S JAVASCRIPT COMPANY**
