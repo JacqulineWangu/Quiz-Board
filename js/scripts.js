@@ -1,7 +1,9 @@
-function add(question1, question2, question3, question4, question5, question6, question7, question8, question9, question10) {return question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8 + question9 + question10};
+function add(question1, question2, question3, question4, question5, question6, question7, question8, question9, question10) {
+    return question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8 + question9 + question10;
+};
 
-$(document.readyState()  (parameter) event: any
-$("#quiz").submit(function (event){
+$(document).ready(function () {
+$("#quiz1").submit(function (event){
     event.preventDefault() ;
     var question1 = parseInt ($('input:radio[name=ans1] : checked').val("D"));
     var question2 = parseInt ($('input:radio[name=ans2] : checked').val("D"));
@@ -14,7 +16,8 @@ $("#quiz").submit(function (event){
     var question9 = parseInt ($('input:radio[name=ans9] : checked').val("C"));
     var question10 = parseInt ($('input:radio[name=ans10] : checked').val("B"));
     var result = add(question1, question2, question3, question4, question5, question6, question7, question8, question9, question10);
-}))
+ });
+});
 
   // UI logic
 $(document).ready(function() {
