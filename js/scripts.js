@@ -20,6 +20,7 @@ $(document).ready(function(){
         
     })
 
+  
     $("#q1").click(function(){
         $(".Q1").slideUp();
         $(".Q2").fadeIn(); 

@@ -1,15 +1,7 @@
 li {
     list-style: none;
   }
-#button:hover {
- background-color: aqua;
- height: 30rem;
- border-end-end-radius: 40em;
-  }
 
-  body {
-    background-image: url('/home/jacquline/MORINGA-SCHOOL-PROJECTS/quiz/images/nice.jpeg');
-  }
 
 .pointi {
   display: none;
@@ -26,9 +18,6 @@ li {
   padding: 70px;
 }
 
-.Q1{
-  display: none;
-}
 
 .Q2{
   display: none;
