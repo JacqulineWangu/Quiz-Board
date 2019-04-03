@@ -16,7 +16,7 @@ $(document).ready(function(){
         })
         $(".questions").slideUp();
         $(".pointi").fadeIn();
-        $(".output").text("Wewe mshenzi your score is "+total+"%")
+        $(".output").text("WOW!! YOUR SCORE IS "+total+"%")
         
     })
 
@@ -67,7 +67,5 @@ $(document).ready(function(){
         return false; 
     });
     
-    function GOBACK() {
-        window.history.back();
-      }
+
 })
