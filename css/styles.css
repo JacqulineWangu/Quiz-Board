@@ -56,3 +56,21 @@ li {
   font-size: 500%;
   color: whitesmoke;
 }
+
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+  color: wheat;
+  
+}
+
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 400%;
+  color: white;
+
+}
+
+h2{
+  color: aquamarine;
+}
