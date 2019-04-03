@@ -1,14 +1,16 @@
 li {
     list-style: none;
   }
-.button:hover {
+#button:hover {
  background-color: aqua;
  height: 30rem;
  border-end-end-radius: 40em;
   }
-body {
-  background-image: url('/home/jacquline/MORINGA-SCHOOL-PROJECTS/quiz/images/nice.jpeg');
-}
+
+  body {
+    background-image: url('/home/jacquline/MORINGA-SCHOOL-PROJECTS/quiz/images/nice.jpeg');
+  }
+
 .pointi {
   display: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,6 +24,10 @@ body {
   top: 0px;
   left: 400px;
   padding: 70px;
+}
+
+.Q1{
+  display: none;
 }
 
 .Q2{
@@ -52,4 +58,12 @@ body {
   display: none;
 }
 
-
+.center{
+  font-size: 500%;
+  color: whitesmoke;
+  align-items: center;
+}
+.pull-right{
+  font-size: 500%;
+  color: whitesmoke;
+}
