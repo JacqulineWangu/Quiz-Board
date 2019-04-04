@@ -85,3 +85,10 @@ h5{
 .bo{
  background-image: url(../images/nice.jpeg)
 }
+.bo2{
+  background: url(../images/js.png);
+  background-size: contain;
+}
+.back2{
+  background-color: rgb(17, 16, 16, 0.5)
+}
