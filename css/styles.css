@@ -80,3 +80,8 @@ h5{
 .j{
   color: rgb(1, 1, 24);
 }
+/* classes given to the body*/
+
+.bo{
+ background-image: url(../images/nice.jpeg)
+}
